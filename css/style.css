@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000000;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* header start */
+
+.header-top{
+    background: #000;
+}
+
+.header-top-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info-text{
+    display: flex;
+    align-items: center;
+}
+
+.fa-phone-alt{
+    font-size: 16px;
+    color: #969696;
+    padding-right: 15px;
+}
+
+.info-text-p{
+    color: #969696;
+    font-size: 12px;
+    font-family: 'PTSans-Regular';
+    padding-right: 15px;
+    border-right: 1px solid #969696;
+}
+
+.plpl{
+    padding-left: 15px;
+}
+
+.border-right{
+    padding-left: 15px;
+    border-right: none;
+}
+
+.info-log-text{
+    display: flex;
+    align-items: center;
+    color: #969696;
+    font-size: 12px;
+    font-family: 'PTSans-Regular';
+}
+
+.fa-sign-in{
+    font-size: 16px;
+    color: #969696;
+    padding-right: 15px;
+}
+
+.header-top{
+    padding: 14px 0;
+}
+
+/* *************************************************************** */
+
+.header-menu{
+    background: #0F0F0F;
+}
+
+.nav-link{
+    font-size: 14px !important;
+    color: #969696 !important;
+    padding: 31px 20px !important;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    color: #fff !important;
+    background: #1F1F1F;
+}
+
+.navbar{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.fa-shopping-cart{
+    font-size: 22px;
+    color: #fff;
+    padding-right: 40px;
+    padding-left: 60px;
+}
+
+.fa-search{
+    font-size: 22px;
+    color: #fff;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: none;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.fa-bars{
+    color: #fff;
+}
+
+/* *************************************************************** */
+
+.header-fon{
+    background: url(../img/header-fon.png) no-repeat center/cover;
+}
+
+.header-title{
+    text-align: center;
+    padding-top: 160px;
+    
+}
+
+.header-title img{
+    max-width: 320px;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.header-title__p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'PTSans-Regular';
+    text-transform: uppercase;
+    padding-bottom: 154px;
+}
+
+
+/* *************************************************************** */
+
+.main-top__h2{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'PlayfairDisplay-Bold';
+    text-align: center;
+    padding-top: 93px;
+}
+
+.main-top__h2::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #fff;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-box__img{
+    width: 100%;
+    background: #191B1C;
+}
+
+.product-box__img img{
+    width: 100%;
+    padding: 55px 22px;
+}
+
+.product-box-h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'PlayfairDisplay-Regular';
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.product-box-p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'PlayfairDisplay-Regular';
+}
+
+
+
+.main-top__catalog{
+    background: url(../img/kostyum.png) no-repeat center/cover;
+    text-align: center;
+}
+
+.catalog-h3{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'PlayfairDisplay-Bold';
+    text-transform: uppercase;
+    padding-top: 484px;
+}
+
+.catalog-h3::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #fff;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ctlg-btn{
+    background: transparent;
+    border: 1px solid #fff;
+    width: 138px;
+    height: 47px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'PTSans-Regular';
+    margin-bottom: 100px;
+    transition: 0.5s;
+}
+
+.ctlg-btn:hover{
+    background: #fff;
+    color: black;
+}
+
+.main-bottom-left{
+   background: url(../img/kostyum-2.jpg) no-repeat center/cover;
+}
+
+.main-bottom-right{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.bottom-right-h2{
+    font-size: 36px;
+    color: #fff;
+    font-family: 'PlayfairDisplay-Regular';
+    text-transform: uppercase;
+}
+
+.bottom-right-h2::after{
+    content: "";
+    display: block;
+    max-width: 120px;
+    width: 100%;
+    height: 1px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #fff;
+}
+
+.bottom-right-p{
+    font-size: 14px;
+    color: #fff;
+    font-family: 'PTSans-Regular';
+    max-width: 471px;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 61px;
+}
+
+.bottom-right-btn{
+    max-width: 311px;
+    width: 100%;
+    height: 47px;
+    margin: auto;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* ************************************************************ */
+
+.section-h2{
+    font-size: 36px;
+    color: #fff;
+    font-family: 'PlayfairDisplay-Bold';
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 120px;
+}
+
+.section-h2::after{
+    content: "";
+    display: block;
+    max-width: 120px;
+    width: 100%;
+    height: 1px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #fff;
+}
+
+.product-box{
+    padding-bottom: 20px;
+}
+
+

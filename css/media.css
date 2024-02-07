@@ -1,0 +1,40 @@
+
+@media(max-width: 991px) {
+    .fa-shopping-cart{
+        padding-left: 20px;
+    }
+    
+    .header-title__p{
+        font-size: 14px;
+    }
+    
+    .product-box{
+        margin-bottom: 25px;
+    }
+    
+}
+
+
+@media(max-width: 767px) {
+    .header-top-info{
+        flex-direction: column;
+    }
+    
+    .header-info-log{
+        margin-top: 15px;
+    }
+    
+    .header-title__p{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 434px){
+    .info-text-p{
+        padding-right: 0;
+        border-right: none;
+    }
+    .header-info-text{
+        flex-direction: column;
+    }
+}
